@@ -1,0 +1,114 @@
+/* UserProfile Styles */
+.profileContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--secondary-bg-color);
+}
+
+.profileContainer h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--primary-text-color);
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profileInfo p {
+  font-size: 1.1rem;
+  color: var(--secondary-text-color);
+}
+
+.profileInfo label {
+  font-size: 1rem;
+  color: var(--primary-text-color);
+}
+
+.profileInfo input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  width: 100%;
+  transition: border 0.3s;
+}
+
+.profileInfo input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+.profileInfo button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.profileInfo button[type='submit'] {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  border: none;
+}
+
+.profileInfo button[type='button'] {
+  background-color: transparent;
+  color: var(--primary-text-color);
+  border: 1px solid var(--accent-color);
+}
+
+.profileInfo button[type='submit']:hover {
+  background-color: var(--secondary-bg-color);
+  color: var(--accent-color);
+}
+
+.profileInfo button[type='button']:hover {
+  background-color: var(--secondary-bg-color);
+  color: var(--accent-color);
+}
+
+.profileInfo button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--accent-color);
+}
+
+.profileInfo .editButton {
+  align-self: center;
+  background-color: transparent;
+  color: var(--accent-color);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.profileInfo .editButton:hover {
+  color: var(--primary-text-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .profileContainer {
+    padding: 15px;
+  }
+
+  .profileContainer h2 {
+    font-size: 1.6rem;
+  }
+
+  .profileInfo input,
+  .profileInfo button {
+    font-size: 0.9rem;
+  }
+}
+

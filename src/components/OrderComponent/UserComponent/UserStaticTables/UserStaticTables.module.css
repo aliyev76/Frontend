@@ -1,0 +1,86 @@
+/* Table Container */
+.table-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Allow tables to stack on smaller screens */
+}
+
+/* Table Header */
+.table-header {
+  background-color: #2c3e50; /* Dark blue-gray for header */
+  color: #ecf0f1; /* Light text color */
+  font-weight: bold;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* Table Cell */
+.table-cell {
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  color: #34495e; /* Dark gray for regular text */
+}
+
+/* Synthesis Program Table Styling */
+.MuiTableContainer-root {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #ffffff; /* White background for the table */
+  flex: 1;
+  min-width: 45%;
+}
+
+/* Primer Prices Table Styling */
+.MuiTableContainer-root {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #ffffff; /* White background for the table */
+}
+
+/* Row Styling */
+.MuiTableBody-root tr:nth-child(odd) {
+  background-color: #ecf0f1; /* Light gray for odd rows */
+}
+
+.MuiTableBody-root tr:nth-child(even) {
+  background-color: #ffffff; /* White for even rows */
+}
+
+/* Hover effect on rows */
+.MuiTableBody-root tr:hover {
+  background-color: #d5dbdb; /* Light hover effect */
+  cursor: pointer;
+}
+
+/* Material UI Table Styling */
+.MuiTable-root {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .table-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .MuiTableCell-root {
+    padding: 10px;
+  }
+
+  .MuiTableContainer-root {
+    padding: 12px;
+    min-width: 100%;
+  }
+}
+

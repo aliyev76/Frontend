@@ -1,0 +1,139 @@
+{
+  "about_company": {
+    "title": "Şirket Profili",
+    "description": "2016 yılında Hüseyin ERYİĞİT tarafından kurulan POLGEN Biotechnology Inc., biyoteknoloji alanındaki yenilikçi çalışmalarına devam etmektedir. Hizmetlerinin yanı sıra, kendini sürekli olarak Ar-Ge projeleriyle yenileyerek alanında başarılı bir şirket olmayı hedeflemektedir."
+  },
+  "mission_vision": {
+    "title": "Vizyon ve Misyon",
+    "description": "POLGEN Biotechnology Inc., 2016 yılında Hüseyin ERYİĞİT tarafından bir start-up olarak kurulmuş ve biyoteknoloji alanında yenilikçi çalışmalarına devam etmektedir. Kendini sürekli yenileyerek Ar-Ge projeleriyle alanında başarılı bir şirket olmayı hedeflemektedir."
+  },
+  "ar_ge": {
+    "title": "TÜBİTAK-TEYDEB 1507: CRISPR Tabanlı Genom Düzenleme Kiti Geliştirme",
+    "description": "POLGEN, genom düzenleme ve biyoteknolojik araçları geliştirmeye yönelik ileri düzey Ar-Ge projeleri yürütmektedir ve erişilebilir, verimli ve yenilikçi çözümler üretmektedir.",
+    "project_1_title": "CRISPR Genom Düzenleme Teknolojisi",
+    "project_1_description": "POLGEN, hem akademik hem de endüstriyel uygulamalar için araştırmacılara hassas genom düzenleme yetenekleri sağlamak amacıyla en gelişmiş CRISPR araçlarını geliştirmektedir.",
+    "project_2_title": "Gelişmiş CRISPR Çözümleri",
+    "project_2_description": "Biyoteknoloji ve tıp alanındaki özel ihtiyaçları karşılamak için uyarlanmış yenilikçi genetik mühendislik ve CRISPR çözümleri.",
+    "project_3_title": "Mikrobiyom ve Genetik Analiz",
+    "project_3_description": "Çeşitli alanlardaki araştırmaları ve teşhisleri hızlandırmak için tasarlanmış kapsamlı mikrobiyom çalışmaları ve genetik analiz hizmetleri."
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "description": "Bizimle iletişime geçmek için aşağıdaki formu doldurun veya şu adresten ulaşabilirsiniz:",
+    "email": "E-posta: contact@example.com",
+    "form": {
+      "name": "Ad",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "submit": "Gönder"
+    }
+  },
+  "covid_19": {
+    "title": "POLGEN Koronavirüs Tespit/Test Kiti",
+    "description": "Bu kit, insan örneklerinden alınan RNA örneklerinden SARS-CoV-2'yi tespit etmek için geliştirilmiştir. Tepki süresi yaklaşık 1 saat olup kullanılan qPCR cihazına bağlı olarak hafifçe değişebilir."
+  },
+  "main": {
+    "slider_1": "YENİ NESİL DİZİLEME",
+    "slider_2": "KORONAVİRÜS TESPİT KİTİ",
+    "slider_3": "BİYOENFORMASYON ANALİZLERİ",
+    "sections": [
+      {
+        "title": "Koronavirüs Test Kiti",
+        "description": "POLGEN Koronavirüs Test Kiti, sağlık profesyonelleri için hızlı ve güvenilir sonuçlar sağlayan ileri qPCR teknolojisini kullanır.",
+        "imgSrc": "/images/covid-test-kit.jpg"
+      },
+      {
+        "title": "Büyük Veri Çözümleri",
+        "description": "POLGEN, araştırma ve geliştirmeyi hızlandırmak için de novo genom montajı, RNASeq analizi ve gen ontolojisi profillemesi gibi yenilikçi büyük veri analiz hizmetleri sunar.",
+        "imgSrc": "/images/big-data.jpg"
+      }
+    ]
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "service_1_title": "Biyouyumluluk Analizleri",
+    "service_1_desc": "İhtiyaçlarınıza özel hazırlanmış kapsamlı biyouyumluluk analizleri.",
+    "service_1_sub_1": "DNA Dizileme",
+    "service_1_sub_2": "RNA Dizileme",
+    "service_1_sub_3": "Epigenom Dizileme",
+    "service_2_title": "Yeni Nesil Dizileme",
+    "service_2_desc": "Modern araştırmalar için ileri dizileme hizmetleri.",
+    "service_2_sub_1": "Mikrobiyom Dizileme",
+    "service_2_sub_2": "Tek Hücre Dizileme",
+    "service_2_sub_3": "Transkriptom Analizi",
+    "service_3_title": "Biyoenformasyon",
+    "service_3_desc": "Araştırmanızı desteklemek için kapsamlı biyoenformasyon analizleri.",
+    "service_3_sub_1": "Standart Analizler",
+    "service_3_sub_2": "Özel Pipelineler",
+    "service_4_title": "CRISPR",
+    "service_4_desc": "Yüksek hassasiyetli CRISPR tabanlı genom düzenleme.",
+    "service_5_title": "Covid-19 Test Kitleri",
+    "service_5_desc": "Doğru ve güvenilir Covid-19 tespit kitleri.",
+    "service_6_title": "Maymun Çiçeği Virüsü Test Kitleri",
+    "service_6_desc": "Maymun çiçeği virüsünü tespit etmek için özel kitler."
+  },
+  "login": {
+    "title": "Giriş Yap",
+    "email": "E-posta",
+    "password": "Şifre",
+    "submit": "Giriş Yap",
+    "no_account": "Hesabınız yoksa, ",
+    "signup": "kayıt olun",
+    "error_message": "Kullanıcı adı veya şifre hatalı",
+    "forgot_password": "Şifrenizi mi unuttunuz?"
+  },
+  "reset_password": {
+    "title": "Şifre Sıfırla",
+    "new_password": "Yeni şifrenizi girin",
+    "confirm_password": "Yeni şifrenizi doğrulayın",
+    "submit": "Şifreyi Sıfırla",
+    "loading": "Sıfırlanıyor...",
+    "success_message": "Şifreniz başarıyla sıfırlandı! Girişe yönlendiriliyorsunuz...",
+    "error_message": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "passwords_do_not_match": "Şifreler eşleşmiyor."
+  },
+  "forgot_password": {
+    "title": "Şifremi Unuttum",
+    "email_placeholder": "E-postanızı girin",
+    "submit": "Sıfırlama Bağlantısını Gönder",
+    "loading": "Gönderiliyor...",
+    "success_message": "Sıfırlama bağlantısı e-postanıza gönderildi.",
+    "email_not_found": "E-posta kayıtlarımızda bulunamadı.",
+    "error_message": "Bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "register": {
+    "title": "Kayıt Ol",
+    "username": "Kullanıcı Adı",
+    "email": "E-posta",
+    "password": "Şifre",
+    "phone": "Telefon",
+    "address": "Adres",
+    "submit": "Kayıt Ol",
+    "success": "Kullanıcı başarıyla kaydedildi! Giriş bilgileri için lütfen e-postanızı kontrol edin.",
+    "already_have_account": "Zaten bir hesabınız var mı?",
+    "password_requirements": "Şifre en az 8 karakter uzunluğunda olmalı ve bir büyük harf, bir özel karakter ve bir sayı içermelidir.",
+    "all_fields_required": "Tüm alanlar (kullanıcı adı, e-posta, şifre, telefon, adres) doldurulmalıdır.",
+    "registration_failed": "Kayıt başarısız oldu. Lütfen daha sonra tekrar deneyin.",
+    "success_message": "Başarıyla kayıt oldunuz! Devam etmek için lütfen giriş yapın."
+  },
+  "navbar": {
+    "about_us": "Hakkımızda",
+    "contact_us": "Bize Ulaşın",
+    "our_services": "Hizmetlerimiz",
+    "covid_19_test": "Covid-19 Testi",
+    "ar_ge": "Ar-Ge"
+  },
+  "footer": {
+    "company_name": "POLGEN BIOTEKNOLOJİ",
+    "description": "CRISPR, Biyouyumluluk Analizi, Yeni Nesil Dizileme, Biyoenformasyon Analizi, Koronavirüs Test Kiti, PCR Cihazı",
+    "address": "Vedik OSB, 1453. Cad., No: 3, 06378 Yenimahalle, ANKARA",
+    "phone": "Tel: +90 312 395 5795",
+    "mobile_phone": "Mobil: +90 506 051 13 63",
+    "email": "E-posta: info@polgen.com.tr",
+    "social_media": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    }
+  }
+}
+

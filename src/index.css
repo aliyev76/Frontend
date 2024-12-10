@@ -1,0 +1,179 @@
+/* Light and Dark Mode Variables */
+:root {
+  /* Light Mode Colors */
+  --primary-bg-color: #ffffff; /* Pure white background */
+  --primary-text-color: #000000; /* Black for high contrast text */
+  --accent-color: #1976d2; /* Material UI primary blue */
+  --secondary-bg-color: #f5f5f5; /* Light gray for secondary sections */
+  --border-color: #e0e0e0; /* Material UI light border gray */
+  --secondary-text-color: #757575; /* Subtle gray for less prominent text */
+}
+
+[data-theme="dark"] {
+  /* Dark Mode Colors */
+  --primary-bg-color: #121212; /* Material UI deep dark background */
+  --primary-text-color: #ffffff; /* White for readability on dark background */
+  --accent-color: #90caf9; /* Light blue for accent */
+  --secondary-bg-color: #1e1e1e; /* Slightly lighter gray for secondary sections */
+  --border-color: #424242; /* Dark gray for borders */
+  --secondary-text-color: #bdbdbd; /* Gray for less prominent text */
+}
+
+/* Global Styles */
+body {
+  /* margin-top: 90px; */
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  transition: background-color 0.3s, color 0.3s;
+
+  /* Enable scrolling but hide the scrollbar */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for webkit (Chrome, Safari) */
+body::-webkit-scrollbar {
+  width: 0; /* Set scrollbar width to 0 */
+  height: 0; /* For horizontal scrollbar, if any */
+}
+
+/* Hide scrollbar for Firefox */
+body {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+/* Optional: Scrollable section-specific styles */
+.scrollable-section {
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox-specific hiding */
+}
+
+/* Other Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Buttons */
+button {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-bg-color);
+  color: var(--accent-color);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--accent-color);
+}
+
+/* Responsive Utility Classes */
+.flex {
+  display: flex;
+  gap: 15px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-text-color);
+}
+
+/* Borders */
+.border {
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 15px;
+}
+
+/* Navbar Adjustments */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  z-index: 1000;
+}
+
+.navbar .logo img {
+  height: 40px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--accent-color);
+}
+
+.navbar .icons {
+  display: flex;
+  gap: 15px;
+}
+
+/* Light/Dark Toggle */
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  background-color: var(--secondary-bg-color);
+}
+

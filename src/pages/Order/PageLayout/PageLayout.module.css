@@ -1,0 +1,108 @@
+/* Layout Container */
+.layoutContainer {
+  display: flex;
+  min-height: 100vh; /* Full viewport height */
+  background-color: var(--primary-bg-color); /* Dynamic background color based on theme */
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 0 0 250px; /* Fixed width for the sidebar */
+  background-color: var(--secondary-bg-color); /* Sidebar background color */
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for sidebar toggle */
+}
+
+.sidebar.closed {
+  transform: translateX(-250px); /* Hide the sidebar when closed */
+}
+
+.sidebar.open {
+  transform: translateX(0); /* Show the sidebar when open */
+}
+
+/* Main Content */
+.mainContent {
+  flex-grow: 1; /* Occupy remaining space */
+  padding: 80px 25px 80px 85px; /* Padding to align with sidebar and navbar */
+  background-color: var(--primary-bg-color); /* Background color matching theme */
+  color: var(--primary-text-color); /* Text color */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  transition: padding-left 0.3s ease-in-out; /* Transition when sidebar is toggled */
+}
+
+.mainContent.sidebar-open {
+  padding-left: 250px; /* Add padding when the sidebar is open */
+}
+
+.mainContent.sidebar-closed {
+  padding-left: 85px; /* Adjust padding when the sidebar is closed */
+}
+
+/* Navbar */
+.navbar {
+  flex-shrink: 0; /* Prevent navbar from shrinking */
+  position: sticky; /* Keep navbar at the top */
+  top: 0;
+  z-index: 1000; /* Ensure navbar stays above other elements */
+  background-color: var(--primary-bg-color); /* Matches the theme background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Centered Content for Loading and Error States */
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height to center the content vertically */
+  text-align: center;
+  color: var(--primary-text-color); /* Matches the text theme */
+}
+
+/* Spinner Styles */
+.spinner {
+  color: var(--primary-accent-color); /* Set spinner color */
+  width: 50px !important;
+  height: 50px !important;
+  margin-bottom: 20px; /* Space between spinner and text */
+}
+
+/* Error Icon Styles */
+.errorIcon {
+  color: red; /* Set a distinct color for error icons */
+  font-size: 48px;
+  margin-bottom: 10px; /* Space between icon and error text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar {
+    position: absolute; /* Sidebar overlays content on smaller screens */
+    height: 100%;
+    z-index: 1000;
+  }
+
+  .sidebar.closed {
+    transform: translateX(-100%); /* Hide sidebar fully on mobile */
+  }
+
+  .mainContent {
+    padding: 80px 15px; /* Reduce padding for smaller screens */
+  }
+
+  .mainContent.sidebar-open {
+    padding-left: 0; /* No padding when sidebar is open */
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContent {
+    padding: 60px 10px; /* Further reduce padding for very small screens */
+  }
+
+  .navbar {
+    height: 50px; /* Reduce navbar height on very small screens */
+  }
+}
+

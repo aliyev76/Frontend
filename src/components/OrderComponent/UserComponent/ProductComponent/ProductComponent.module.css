@@ -1,0 +1,126 @@
+.productComponent {
+  background-color: var(--primary-bg-color);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.productComponent:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.productComponent h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary-text-color);
+  margin-bottom: 12px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.productComponent label {
+  font-size: 0.95rem;
+  color: var(--primary-text-color);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.productComponent select,
+.productComponent input[type="text"],
+.productComponent input[type="checkbox"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  font-size: 1rem;
+  margin-bottom: 12px;
+  background-color: var(--input-bg-color); /* Add background color to inputs */
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.productComponent select:focus,
+.productComponent input[type="text"]:focus,
+.productComponent input[type="checkbox"]:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+.productComponent input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.productComponent .totalPrice {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--accent-color);
+  margin-top: 12px;
+  text-align: center;
+}
+
+.productComponent button {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.productComponent button:hover {
+  background-color: var(--primary-bg-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.productComponent button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.productComponent input[type="text"] {
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.productComponent input[type="text"]::placeholder {
+  color: var(--secondary-text-color);
+}
+
+@media (min-width: 768px) {
+  .productComponent {
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+
+  .productComponent h4 {
+    font-size: 1.2rem;
+  }
+
+  .productComponent label {
+    font-size: 1rem;
+  }
+
+  .productComponent select,
+  .productComponent input[type="text"] {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+
+  .productComponent button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+}
+

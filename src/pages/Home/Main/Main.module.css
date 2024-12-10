@@ -1,0 +1,18 @@
+/* Full Page Container */
+.pageContainer {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:  var(--primary-bg-color); 
+  padding: 20px;
+    color: var(--primary-text-color); /* Match global text */
+}
+
+/* Ensures content remains responsive */
+@media (max-width: 576px) {
+  .pageContainer {
+    padding: 15px;
+  }
+}

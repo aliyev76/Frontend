@@ -1,0 +1,139 @@
+{
+  "about_company": {
+    "title": "Profil de l'Entreprise",
+    "description": "Fondée en 2016 par Hüseyin ERYİĞİT, POLGEN Biotechnology Inc. poursuit ses travaux innovants dans le domaine de la biotechnologie. En plus de ses services, elle vise à devenir une entreprise prospère dans son domaine en se renouvelant constamment grâce à des projets de recherche et développement."
+  },
+  "mission_vision": {
+    "title": "Vision & Mission",
+    "description": "POLGEN Biotechnology Inc. a été fondée en tant que start-up par Hüseyin ERYİĞİT en 2016 et continue ses études innovantes dans le domaine de la biotechnologie. Elle vise à devenir une entreprise prospère dans son domaine en se renouvelant constamment grâce à des projets de recherche et développement."
+  },
+  "ar_ge": {
+    "title": "TÜBİTAK-TEYDEB 1507 : Développement d'un Kit d'Édition Génétique Basé sur CRISPR",
+    "description": "POLGEN mène des projets de R&D avancés visant à améliorer les outils d'édition génétique et biotechnologiques, en créant des solutions accessibles, efficaces et innovantes.",
+    "project_1_title": "Technologie d'Édition Génétique CRISPR",
+    "project_1_description": "POLGEN développe des outils CRISPR de pointe pour fournir aux chercheurs des capacités d'édition génétique précises pour des applications académiques et industrielles.",
+    "project_2_title": "Solutions Avancées CRISPR",
+    "project_2_description": "Solutions innovantes en ingénierie génétique et CRISPR adaptées aux besoins spécifiques de la biotechnologie et de la médecine.",
+    "project_3_title": "Microbiome et Analyse Génétique",
+    "project_3_description": "Études microbiomiques complètes et services d'analyse génétique conçus pour accélérer les recherches et diagnostics dans divers domaines."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "description": "Nous serions ravis de vous entendre ! Remplissez le formulaire ci-dessous ou contactez-nous à l'adresse suivante :",
+    "email": "Email : contact@example.com",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer"
+    }
+  },
+  "covid_19": {
+    "title": "Kit de Détection/Test de Coronavirus POLGEN",
+    "description": "Ce kit est développé pour la détection du SARS-CoV-2 à partir d'échantillons d'ARN obtenus à partir de spécimens humains. Le temps de réaction est d'environ 1 heure et varie légèrement selon l'appareil qPCR utilisé."
+  },
+  "main": {
+    "slider_1": "SÉQUENÇAGE DE NOUVELLE GÉNÉRATION",
+    "slider_2": "KIT DE DÉTECTION DU CORONAVIRUS",
+    "slider_3": "ANALYSES BIOINFORMATIQUES",
+    "sections": [
+      {
+        "title": "Kit de Test Coronavirus",
+        "description": "Le Kit de Test Coronavirus POLGEN utilise une technologie qPCR avancée pour une détection rapide et précise du SARS-CoV-2, garantissant des résultats fiables pour les professionnels de santé.",
+        "imgSrc": "/images/covid-test-kit.jpg"
+      },
+      {
+        "title": "Solutions Big Data",
+        "description": "POLGEN fournit des services d'analyse big data innovants, incluant l'assemblage de novo du génome, l'analyse RNASeq et le profilage d'ontologie des gènes pour accélérer la recherche et le développement.",
+        "imgSrc": "/images/big-data.jpg"
+      }
+    ]
+  },
+  "services": {
+    "title": "Nos Services",
+    "service_1_title": "Analyses de Biocompatibilité",
+    "service_1_desc": "Analyses de biocompatibilité complètes adaptées à vos besoins.",
+    "service_1_sub_1": "Séquençage ADN",
+    "service_1_sub_2": "Séquençage ARN",
+    "service_1_sub_3": "Séquençage Épigénomique",
+    "service_2_title": "Séquençage de Nouvelle Génération",
+    "service_2_desc": "Services de séquençage avancés pour des recherches de pointe.",
+    "service_2_sub_1": "Séquençage Microbiomique",
+    "service_2_sub_2": "Séquençage de Cellule Unique",
+    "service_2_sub_3": "Analyse Transcriptomique",
+    "service_3_title": "Bioinformatique",
+    "service_3_desc": "Analyses bioinformatiques complètes pour soutenir vos recherches.",
+    "service_3_sub_1": "Analyses Standards",
+    "service_3_sub_2": "Pipelines Personnalisés",
+    "service_4_title": "CRISPR",
+    "service_4_desc": "Édition génomique basée sur CRISPR à haute précision.",
+    "service_5_title": "Kits de Test Covid-19",
+    "service_5_desc": "Kits fiables et précis pour la détection de la Covid-19.",
+    "service_6_title": "Kits de Test du Virus de la Variole du Singe",
+    "service_6_desc": "Kits spécialisés pour détecter le virus de la variole du singe."
+  },
+  "login": {
+    "title": "Connexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "no_account": "Si vous n'avez pas de compte, veuillez ",
+    "signup": "vous inscrire",
+    "error_message": "Nom d'utilisateur ou mot de passe incorrect",
+    "forgot_password": "Mot de passe oublié ?"
+  },
+  "reset_password": {
+    "title": "Réinitialiser le Mot de Passe",
+    "new_password": "Entrez votre nouveau mot de passe",
+    "confirm_password": "Confirmez votre nouveau mot de passe",
+    "submit": "Réinitialiser le Mot de Passe",
+    "loading": "Réinitialisation...",
+    "success_message": "Votre mot de passe a été réinitialisé avec succès ! Redirection vers la connexion...",
+    "error_message": "Impossible de réinitialiser le mot de passe. Veuillez réessayer.",
+    "passwords_do_not_match": "Les mots de passe ne correspondent pas."
+  },
+  "forgot_password": {
+    "title": "Mot de Passe Oublié",
+    "email_placeholder": "Entrez votre email",
+    "submit": "Envoyer le lien de réinitialisation",
+    "loading": "Envoi en cours...",
+    "success_message": "Un lien de réinitialisation a été envoyé à votre email.",
+    "email_not_found": "Email non trouvé dans nos dossiers.",
+    "error_message": "Une erreur s'est produite. Veuillez réessayer plus tard."
+  },
+  "register": {
+    "title": "S'inscrire",
+    "username": "Nom d'utilisateur",
+    "email": "Email",
+    "password": "Mot de passe",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "submit": "S'inscrire",
+    "success": "Utilisateur enregistré avec succès ! Veuillez vérifier votre email pour les informations de connexion.",
+    "already_have_account": "Vous avez déjà un compte ?",
+    "password_requirements": "Le mot de passe doit comporter au moins 8 caractères, inclure une majuscule, un caractère spécial et un chiffre.",
+    "all_fields_required": "Tous les champs (nom d'utilisateur, email, mot de passe, téléphone, adresse) sont obligatoires.",
+    "registration_failed": "L'inscription a échoué. Veuillez réessayer plus tard.",
+    "success_message": "Vous vous êtes inscrit avec succès ! Veuillez vous connecter pour continuer."
+  },
+  "navbar": {
+    "about_us": "À Propos de Nous",
+    "contact_us": "Contactez-Nous",
+    "our_services": "Nos Services",
+    "covid_19_test": "Test Covid-19",
+    "ar_ge": "R&D"
+  },
+  "footer": {
+    "company_name": "POLGEN BIOTECHNOLOGIE",
+    "description": "CRISPR, Analyse de Biocompatibilité, Séquençage de Nouvelle Génération, Analyse Bioinformatique, Kit de Test du Coronavirus, Appareil PCR",
+    "address": "Vedik OSB, 1453. Cad., No: 3, 06378 Yenimahalle, ANKARA",
+    "phone": "Tel : +90 312 395 5795",
+    "mobile_phone": "Tel (m) : +90 506 051 13 63",
+    "email": "Email : info@polgen.com.tr",
+    "social_media": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    }
+  }
+}
+

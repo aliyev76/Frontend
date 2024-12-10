@@ -1,0 +1,119 @@
+/* Main container */
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+
+      margin-top:90px ;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+/* Accordion structure */
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.accordionItem {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--secondary-bg-color);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.accordionItem:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.accordionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-weight: bold;
+}
+
+.accordionHeader:hover {
+  background-color: var(--secondary-bg-color);
+}
+
+.accordionTitle {
+  font-size: 1.2rem;
+  flex: 1;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: var(--accent-color);
+}
+
+/* Accordion content */
+.accordionContent {
+  padding: 15px 20px;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.subcategories {
+  margin: 10px 0 0 20px;
+  padding: 0;
+  list-style: disc;
+  color: var(--primary-text-color);
+}
+
+.subcategories li {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+}
+
+.active .accordionHeader {
+  background-color: var(--secondary-bg-color);
+}
+
+.active .accordionContent {
+  border-top: 1px solid var(--border-color);
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .accordionHeader {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+
+  .accordionContent {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+
+  .accordionTitle {
+    font-size: 1rem;
+  }
+}
+

@@ -1,0 +1,128 @@
+/* Main container */
+.container {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: var(--primary-bg-color);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-text-color);
+  transition: background-color 0.3s, color 0.3s;
+
+      margin-top:90px ;
+}
+
+/* Image section */
+.imageContainer {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+/* Content section */
+.content {
+  flex: 1 1 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: var(--accent-color);
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: var(--primary-text-color);
+}
+
+/* Stats section */
+.stats {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.statItem {
+  flex: 1 1 200px;
+  background-color: var(--secondary-bg-color);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.statNumber {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.statItem p {
+  font-size: 1rem;
+  color: var(--primary-text-color);
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .imageContainer {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    flex: 1 1 100%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .statItem {
+    padding: 15px;
+  }
+
+  .statNumber {
+    font-size: 1.5rem;
+  }
+}
+
